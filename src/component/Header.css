@@ -1,0 +1,46 @@
+
+
+.header {
+    height: 120px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 48px;
+
+    /*  页面左右边缘margin */
+    --margin: 64px
+}
+
+.logo {
+    margin-left: var(--margin);
+    color: #878787;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.stat {
+    display: flex;
+    margin-right: var(--margin);
+    text-align: center;
+    color: #878787;
+    gap: 56px;
+}
+
+/* 项目 */
+.stat-item-text {
+    font-size: 20px;
+
+}
+
+.stat-item-number {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+
+

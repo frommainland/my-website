@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header';
+import YearProjectGroup from './component/YearProjectGroup';
+import Project from './component/Project';
+import Nav from './component/Nav';
+import Work from './page/Work';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <div></div>
+            <YearProjectGroup year='🐯 2022'>
+                <Project name='test' />
+                <Project />
+            </YearProjectGroup>
+            <YearProjectGroup year='🐮 2021'>
+                <Project name='test' />
+                <Project name='test' />
+            </YearProjectGroup>
+            <YearProjectGroup year='🐮 2021'>
+                <Project name='test' />
+                <Project name='test' />
+            </YearProjectGroup>
+            <Nav />
+        </div>
+    );
 }
 
 export default App;
