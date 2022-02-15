@@ -6,6 +6,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MouseContextProvider from './context/MouseContext';
 
+
+
 ReactDOM.render(
     <React.StrictMode>
         <MouseContextProvider>

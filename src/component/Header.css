@@ -7,8 +7,6 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    margin-bottom: 48px;
-
     /*  页面左右边缘margin */
     --margin: 64px
 }
