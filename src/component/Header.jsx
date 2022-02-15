@@ -17,7 +17,7 @@ export default function Header() {
             <div className='logo'>杨硕的项目存档</div>
             <div className='stat'>
                 <Stat name='项目' number='10'/>
-                <Stat name='故事' number='2'/>
+                <Stat name='文章' number='2'/>
                 <Stat name='个人' number='1'/>
             </div>
         </div>

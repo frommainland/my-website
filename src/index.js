@@ -4,10 +4,13 @@ import './index.css';
 import 'the-new-css-reset/css/reset.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MouseContextProvider from './context/MouseContext';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <MouseContextProvider>
+            <App />
+        </MouseContextProvider>
     </React.StrictMode>,
     document.getElementById('root')
 );
