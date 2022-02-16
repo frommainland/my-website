@@ -8,11 +8,12 @@
     align-items: center;
     color: white;
     /*  页面左右边缘margin */
-    --margin: 64px
+    /* --margin: 64px */
 }
 
 .logo {
-    margin-left: var(--margin);
+    /* margin-left: var(--margin); */
+    margin-left: 64px;
     color: #878787;
     font-weight: 600;
     font-size: 20px;
@@ -21,7 +22,8 @@
 
 .stat {
     display: flex;
-    margin-right: var(--margin);
+    /* margin-right: var(--margin); */
+    margin-right: 64px;
     text-align: center;
     color: #878787;
     gap: 56px;

@@ -1,8 +1,10 @@
 .project-group-wrapper {
-    --margin: 32px;
+    /* --margin: 32px; */
     padding-bottom: 88px;
-    margin-left: var(--margin);
-    margin-right: var(--margin);
+    /* margin-left: var(--margin);
+    margin-right: var(--margin); */
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 
@@ -10,7 +12,8 @@
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 16px;
-    margin-left: var(--margin);
+    /* margin-left: var(--margin); */
+    margin-left: 32px;
 }
 
 .project-ending {
