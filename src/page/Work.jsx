@@ -18,7 +18,7 @@ const Work = () => {
                 <Project name='英文绘本' company='伴鱼绘本' tag1='APP' tag2='体验优化' />
             </YearProjectGroup>
             <YearProjectGroup year='🐭 - 2020'>
-                <Project name='MultiCard' company='韩亚银行 KEB Hana' tag1='APP' tag2='咨询' />
+                <Project name='MultiCard' company='韩亚银行 KEB Hana' tag1='APP' tag2='咨询' projectLink='Multicard'/>
             </YearProjectGroup>
             <YearProjectGroup year='🐷 - 2019'>
                 <Project name='Pay in China' company='Visa 中国' tag1='APP' tag2='从无到有' />

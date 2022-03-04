@@ -1,0 +1,35 @@
+.post-close-button-stroke {
+    height: 4px;
+    width: 24px;
+    background-color: #7B7B7B;
+    border-radius: 8px;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(45deg);
+    position: absolute;
+}
+
+.post-close-button-stroke:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.post-close-button-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    background-color: #4A4A4A;
+    border-radius: 72px;
+    /* same height nav to page bottom */
+    /* bottom: 40px; */
+}
+
+.post-close-button-layout-fix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    bottom: -72px;
+}

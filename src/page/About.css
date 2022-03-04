@@ -1,0 +1,117 @@
+
+.about-article-wrap {
+    display: grid;
+    grid-template-columns: [full-start] 5% [main-start aside-start] minmax(275px, 1fr) [aside-end body-start] minmax(40%, 2fr) [body-end main-end] 5% [full-end];
+    width: 1400px;
+    column-gap: 4vw;
+}
+
+.about-header {
+    grid-column: main;
+    margin-top: 16vh;
+    margin-bottom: 72px;
+}
+
+.about-header h1{
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 120px;
+}
+
+.about-seperator {
+    grid-column: main;
+    margin-bottom: 24px;
+}
+
+
+.about-seperator p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #0A0A0A;
+    padding-right: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.about-seperator hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, .25);
+    height: 25px;
+    position: relative;
+    top: -12.5px;
+    /* z-index: 1; */
+}
+
+
+.about-article-wrap section {
+    grid-column: body;
+    margin-bottom: 60px;
+}
+
+.about-article-wrap section p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 175%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.about-article-wrap aside {
+    grid-column: aside;
+    position: relative;
+}
+
+
+.about-article-wrap aside p {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #837E78;
+    padding: 24px 40px 24px 40px;
+    border: 2px solid rgba(253, 241, 231, 0.5);
+    border-radius: 999px;
+    box-sizing: border-box;
+    left: 24px;
+}
+
+.about-article-wrap a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+  
+.about-article-wrap aside p:before {
+	content: ' ';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #0A0A0A;
+	border: 2px solid rgba(253, 241, 231, 0.5);
+    border-radius: 50%;
+}
+
+.about-article-wrap aside p:after {
+	content: ' ';
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #0A0A0A;
+	border: 2px solid rgba(253, 241, 231, 0.5);
+    border-radius: 50%;
+}
+
+
+.about-aside-bubble:before {
+	left: -12px;
+	bottom: -12px;
+}
+
+.about-aside-bubble:after {
+	left: -20px;
+	bottom: -20px;
+}
+

@@ -5,9 +5,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0A0A0A;
   cursor: none;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#id {
+    cursor: none;
 }
