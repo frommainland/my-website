@@ -1,3 +1,9 @@
+/* 选择文字颜色 */
+h1::selection, p::selection, a::selection {
+    background: #fff;
+  color: #0A0A0A;
+}
+
 
 .about-article-wrap {
     display: grid;
@@ -114,4 +120,51 @@
 	left: -20px;
 	bottom: -20px;
 }
+
+
+/* video book mark */
+.about-video-bookmark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #292B2E;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.about-video-thumbnail {
+width: 100px;
+height: 100px;
+background: url('../image/Shia-LaBeouf.jpg');
+border-radius: 12px;
+}
+
+.about-video-text-wrap {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 16px;
+}
+
+#about-video-title {
+    font-size: 18px;
+    color: FFFFFF;
+    line-height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+}
+
+
+
+
+#about-video-linkText {
+    width: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 

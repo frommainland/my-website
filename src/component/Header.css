@@ -7,23 +7,62 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding: 0 64px ;
     /*  页面左右边缘margin */
     /* --margin: 64px */
 }
 
-.logo {
-    /* margin-left: var(--margin); */
-    margin-left: 64px;
-    color: #878787;
-    font-weight: 600;
-    font-size: 20px;
+
+.logo-phone {
+    width: 18px;
+    height: 28px;
+    background: #878787;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.logo-phone div {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    left: 71px;
+    top: 66px;
+    background: #171717;
+}
+
+
+.logo-web {
+    width: 42px;
+    height: 28px;
+    background: #878787;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.logo-web div{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 86px;
+    top: 48px;
+    border-radius: 50%;
+    background: #171717;
+
+}
+
+.logo-circle{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 8px solid #878787;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 
 .stat {
     display: flex;
-    /* margin-right: var(--margin); */
-    margin-right: 64px;
     text-align: center;
     color: #878787;
     gap: 56px;

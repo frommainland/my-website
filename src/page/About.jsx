@@ -14,13 +14,14 @@ function ALink({ href, title, text }) {
     )
 }
 
+
 const About = () => {
     return (
         <div style={{
             display: 'flex',
             justifyContent: 'center',
             paddingTop: '48px',
-            paddingBottom: '144px'
+            paddingBottom: '160px'
         }}>
             <article className='about-article-wrap'>
                 <header className='about-header'>
@@ -72,7 +73,14 @@ const About = () => {
                 <section>
                     <p className='about-aside-bubble'>使用figma的时候，我还会用photoshop，代码也只是完成产品中众多的工具之一。
                     </p>
-                    <div>shia labeouf</div>
+                    <div className='about-video-bookmark'>
+                        <div className='about-video-thumbnail'></div>
+                        <div className='about-video-text-wrap'>
+                            <p id='about-video-title'>Shia LaBeouf "Just Do It" Motivational Speech (Original Video by LaBeouf, Rönkkö & Turner)</p>
+                            <a id='about-video-linkText' href="https://www.youtube.com/watch?v=ZXsQAXx_ao0&ab_channel=MotivaShian">https://www.youtube.com/watch?v=ZXsQAXx_ao0&ab_channel=MotivaShian</a>
+                        </div>
+
+                    </div>
                 </section>
 
             </article>
