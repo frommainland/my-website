@@ -1,14 +1,18 @@
 import { motion } from 'framer-motion'
 import React, { useContext } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { MouseContext } from '../context/MouseContext'
 import './Project.css'
+import { NavButtonContext } from '../context/NavButtonContext'
 
 export default function Project({ name, company, tag1, tag2, tag3, projectLink }) {
-    const { cursorType, cursorChangeHandler } = useContext(MouseContext)
-    let nav = useNavigate()
+    // const { cursorType, cursorChangeHandler } = useContext(MouseContext)
+    // const { projectClicked, setProjectClicked } = useContext(NavButtonContext)
+    const { cursorChangeHandler } = useContext(MouseContext)
+    const { setProjectClicked } = useContext(NavButtonContext)
+
     return (
-        <Link to={`/Work/${projectLink}`}>
+        <Link to={`/work/${projectLink}`}>
             <motion.div
                 className='project-wrapper'
                 onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -18,6 +22,7 @@ export default function Project({ name, company, tag1, tag2, tag3, projectLink }
                 }}
                 onClick={() => {
                     cursorChangeHandler("")
+                    setProjectClicked(true)
                 }}>
                 <h1 className='project-name'>{name || '未命名'}</h1>
                 <div className='project-info'>

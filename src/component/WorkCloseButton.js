@@ -1,19 +1,22 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { NavButtonContext } from '../context/NavButtonContext'
+// workclosebutton shares same css with postclosebutton, need time to consolidate these buttons into one
 import './PostCloseButton.css'
 import { motion } from 'framer-motion'
-import { flow } from '../helper/easing'
+import { flow} from '../helper/easing'
 
-const PostCloseButton = () => {
+
+
+const WorkCloseButton = () => {
     let navigate = useNavigate()
-    const { articleClicked, setArticleClicked } = useContext(NavButtonContext)
+    const { projectClicked, setProjectClicked } = useContext(NavButtonContext)
 
     return (
         <motion.div
             className='post-close-button-layout-fix'
             animate={{
-                bottom: articleClicked ? 52 : -72,
+                bottom: projectClicked ? 52 : -72,
                 transition: {
                     ease: flow
                 }
@@ -29,8 +32,8 @@ const PostCloseButton = () => {
                 }}
                 className='post-close-button-wrap'
                 onClick={() => {
-                    navigate('/posts')
-                    setArticleClicked(false)
+                    navigate('/work')
+                    setProjectClicked(false)
                 }}>
                 <motion.div layout>
                     <div className='post-close-button-stroke' />
@@ -41,4 +44,4 @@ const PostCloseButton = () => {
     )
 }
 
-export default PostCloseButton
+export default WorkCloseButton

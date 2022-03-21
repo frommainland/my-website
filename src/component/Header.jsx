@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext } from 'react'
 import './Header.css'
+
+import { useNavigate } from 'react-router-dom'
+import { NavButtonContext } from '../context/NavButtonContext'
+
 
 function Stat({ name, number }) {
     return (
@@ -13,22 +16,29 @@ function Stat({ name, number }) {
 }
 
 export default function Header() {
+    let nav = useNavigate()
+    // const { articleClicked, setArticleClicked } = useContext(NavButtonContext)
+    // const { projectClicked, setProjectClicked } = useContext(NavButtonContext)
+    const { setArticleClicked } = useContext(NavButtonContext)
+    const { setProjectClicked } = useContext(NavButtonContext)
 
     const animateUp = { y: -10 }
 
     return (
         <div className='header'>
-            <Link to='/work'>
-                <div className='logo'>
-                    <motion.div className='logo-phone' whileHover={animateUp}>
-                        <div></div>
-                    </motion.div>
-                    <motion.div className='logo-web' whileHover={animateUp}>
-                        <div></div>
-                    </motion.div>
-                    <motion.div className='logo-circle' whileHover={animateUp} />
-                </div>
-            </Link>
+            <div className='logo' onClick={() => {
+                nav('/work')
+                setArticleClicked(false)
+                setProjectClicked(false)
+            }}>
+                <motion.div className='logo-phone' whileHover={animateUp}>
+                    <div></div>
+                </motion.div>
+                <motion.div className='logo-web' whileHover={animateUp}>
+                    <div></div>
+                </motion.div>
+                <motion.div className='logo-circle' whileHover={animateUp} />
+            </div>
             <div className='stat'>
                 <Stat name='项目' number='10' />
                 <Stat name='文章' number='2' />

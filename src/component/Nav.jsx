@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { NavButtonContext } from '../context/NavButtonContext'
 import './Nav.css'
-import { smooth, flow, bouncy } from '../helper/easing'
+import { smooth } from '../helper/easing'
 
 
 
@@ -11,7 +11,14 @@ import { smooth, flow, bouncy } from '../helper/easing'
 const Nav = () => {
 
     const [tab, setTab] = useState(0)
-    const { articleClicked, setArticleClicked } = useContext(NavButtonContext)
+    // const { articleClicked, setArticleClicked } = useContext(NavButtonContext)
+    // const { projectClicked, setProjectClicked } = useContext(NavButtonContext)
+
+    const { articleClicked } = useContext(NavButtonContext)
+    const { projectClicked } = useContext(NavButtonContext)
+
+
+
     return (
         <div style={{
             display: 'flex',
@@ -21,7 +28,7 @@ const Nav = () => {
             <motion.div
                 className='nav-wrap'
                 animate={{
-                    bottom: articleClicked ? -100 : 40
+                    bottom: articleClicked || projectClicked ? -100 : 40
                 }}
                 transition={{
                     ease: smooth
@@ -32,7 +39,6 @@ const Nav = () => {
                         className='nav-item-wrap'
                         onClick={() => {
                             setTab(0)
-                            console.log('clicked')
                         }}>
                         {tab === 0 && (
                             <motion.div className='nav-underline' layoutId='nav-underline'></motion.div>

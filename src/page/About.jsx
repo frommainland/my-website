@@ -1,16 +1,17 @@
 import React from 'react'
 import './About.css'
 import { motion } from 'framer-motion'
+import VideoBookmark from '../component/VideoBookmark'
 
 const linkColor = '#00AE65'
 
 function ALink({ href, title, text }) {
     return (
-        <motion.div style={{ display: 'inline-block' }} whileHover={{ color: linkColor }}>
+        <motion.span style={{ display: 'inline-block' }} whileHover={{ color: linkColor }}>
             <a href={href} title={title}>
                 {text}
             </a>
-        </motion.div>
+        </motion.span>
     )
 }
 
@@ -40,7 +41,6 @@ const About = () => {
                     <p>做数字媒体设计已经有10多年了，只在这最近一两年来我开始接触前端真正的代码，之前的工具都是在用一层层的语法糖包着，但是外层的糖随着时间失去用户或者维护，那不如直接去用原本开发的工具。</p>
                     <p>从 <ALink href='https://coffeescript.org/' title='CoffeeScript is a little language that compiles into JavaScript.' text='coffee script' /> 到 <ALink href='https://reactjs.org/' title='React – A JavaScript library for building user interfaces' text='react' />，在这其中，从开始设计，做出原型，然后再碰到之前没有想到的问题，反反复复，我从其中得到了很多的乐趣。一个个人网站只是这期间的一个项目，刚好它又能存档之前或是之后所有的项目，一举两得。</p>
                 </section>
-
                 <aside>
                     <p className='about-aside-bubble'>为什么要把项目存档？</p>
                 </aside>
@@ -71,16 +71,8 @@ const About = () => {
                 </aside>
 
                 <section>
-                    <p className='about-aside-bubble'>使用figma的时候，我还会用photoshop，代码也只是完成产品中众多的工具之一。
-                    </p>
-                    <div className='about-video-bookmark'>
-                        <div className='about-video-thumbnail'></div>
-                        <div className='about-video-text-wrap'>
-                            <p id='about-video-title'>Shia LaBeouf "Just Do It" Motivational Speech (Original Video by LaBeouf, Rönkkö & Turner)</p>
-                            <a id='about-video-linkText' href="https://www.youtube.com/watch?v=ZXsQAXx_ao0&ab_channel=MotivaShian">https://www.youtube.com/watch?v=ZXsQAXx_ao0&ab_channel=MotivaShian</a>
-                        </div>
-
-                    </div>
+                    <p className='about-aside-bubble'>使用figma的时候，我还会用photoshop，代码也只是完成产品中众多的工具之一。</p>
+                    <VideoBookmark Title='Shia LaBeouf "Just Do It" Motivational Speech (Original Video by LaBeouf, Rönkkö & Turner)' Href='https://www.youtube.com/watch?v=ZXsQAXx_ao0&ab_channel=MotivaShian' LinkText='https://www.youtube.com/watch?v=ZXsQAXx_ao0&ab_channel=MotivaShian' Background='Shia-LaBeouf' />
                 </section>
 
             </article>
