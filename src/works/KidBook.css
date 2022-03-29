@@ -1,0 +1,213 @@
+.work-kidbook-research-grid {
+	column-count: 2;
+	column-gap: 40px;
+	margin-bottom: 160px;
+}
+
+.work-Kidbook-research-wrap {
+	/* display: inline-block; */
+	margin-bottom: 80px;
+	break-inside: avoid;
+}
+
+.work-Kidbook-research-wrap p {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 24px;
+}
+
+.work-Kidbook-research-item-wrap {
+	padding: 40px;
+	border-radius: 24px;
+	margin-bottom: 40px;
+}
+
+.work-Kidbook-research-item-wrap h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	color: #000000;
+	margin-bottom: 24px;
+}
+.work-Kidbook-research-item-wrap p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.work-Kidbook-research-item-wrap ul {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #000000;
+	list-style: disc;
+	list-style-position: outside;
+	padding-left: 24px;
+}
+
+.work-Kidbook-research-item-wrap ul li {
+	margin-bottom: 24px;
+}
+
+/* 提案-阅读前 */
+.work-kidbook-preposal {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	place-items: center;
+	margin-bottom: 80px;
+}
+
+.work-kidbook-preposal-before img {
+	padding: 48px;
+	margin: 0;
+	background-color: #e0f3f1;
+	border-radius: 24px;
+}
+
+.work-kidbook-preposal-text {
+	margin-bottom: 56px;
+	margin-left: 40px;
+}
+
+.work-kidbook-preposal-text h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 6px;
+}
+
+.work-kidbook-preposal-text p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.work-kidbook-preposal-text ul {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	list-style: disc;
+	list-style-position: outside;
+	padding-left: 24px;
+}
+
+.work-kidbook-preposal-text ul li {
+	margin-bottom: 20px;
+}
+
+.work-kidbook-preposal-text .ratio {
+	background-color: #373737;
+	text-align: center;
+	width: 100px;
+	border-radius: 8px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 21px;
+	color: #959595;
+    margin-right: 16px;
+}
+
+.work-kidbook-preposal-text .ratio-9-16 {
+	aspect-ratio: 16/9;
+}
+
+.work-kidbook-preposal-text .ratio-1-1 {
+	aspect-ratio: 1/1;
+}
+
+.work-kidbook-preposal-text .ratio-4-3 {
+	aspect-ratio: 3/4;
+}
+
+.work-kidbook-preposal-text .ratio-6-5 {
+	aspect-ratio: 5/6;
+}
+
+/* 提案-阅读中 */
+.work-kidbook-preposal-during .flex {
+	display: flex;
+	gap: 20px;
+}
+
+.work-kidbook-preposal-during .flex img {
+	margin-bottom: 32px;
+}
+
+.work-kidbook-preposal-during .flex figcaption {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.work-kidbook-preposal-during video:first-of-type {
+	background-color: #2a2929;
+	padding: 96px;
+	border-radius: 24px;
+}
+
+.work-kidbook-preposal-during .yellow {
+	background-color: #ffefc5;
+	padding: 40px;
+	border-radius: 24px;
+}
+
+.work-kidbook-preposal-during figure {
+	margin-bottom: 60px;
+}
+
+.work-kidbook-preposal-during figure img {
+	margin-bottom: 10px;
+	border-radius: 12px;
+}
+
+.work-kidbook-preposal-during figure figcaption {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #0a0a0a;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.work-kidbook-preposal-during .grid {
+	display: grid;
+	grid-template-columns: 282px 1fr 282px;
+	grid-template-rows: repeat(4, 287px);
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
+}
+
+.work-kidbook-preposal-during .grid .div1 {
+	grid-area: 1 / 1 / 3 / 2;
+}
+.work-kidbook-preposal-during .grid .div2 {
+	grid-area: 1 / 2 / 2 / 4;
+}
+.work-kidbook-preposal-during .grid .div3 {
+	grid-area: 2 / 2 / 3 / 4;
+}
+.work-kidbook-preposal-during .grid .div4 {
+	grid-area: 3 / 1 / 4 / 3;
+}
+.work-kidbook-preposal-during .grid .div5 {
+	grid-area: 4 / 1 / 5 / 3;
+}
+.work-kidbook-preposal-during .grid .div6 {
+	grid-area: 3 / 3 / 5 / 4;
+}

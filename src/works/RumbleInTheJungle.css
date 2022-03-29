@@ -15,7 +15,7 @@
 }
 
 .work-article-wrap hr {
-	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	border-top: 1px solid rgba(255, 255, 255, 0.35);
 	margin-bottom: 120px;
 }
 
@@ -52,7 +52,18 @@
 	font-weight: 600;
 	font-size: 72px;
 	line-height: 72px;
-	margin-bottom: 48px;
+	margin-bottom: 24px;
+}
+
+.work-content-wrap h2 {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 1.4;
+	margin-bottom: 24px;
+}
+
+.work-content-wrap img {
+	margin-bottom: 60px;
 }
 
 /* section */
@@ -64,7 +75,7 @@
 .work-content-text {
 	width: 760px;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .work-content-text .highlight {
@@ -89,6 +100,10 @@
 	font-size: 24px;
 	list-style: none;
 	counter-reset: steps;
+	list-style-position: outside;
+	line-height: 175%;
+	/* list-style: outside; */
+	/* padding-left: 20px; */
 }
 .work-content-text ol li {
 	counter-increment: steps;
@@ -98,12 +113,12 @@
 .work-content-text ol li::before {
 	content: counter(steps);
 	margin-right: 1rem;
-	font-size: 18px;
 	font-weight: 700;
+	/* font-size: 20px; */
 	background: #292b2e;
 	color: white;
-	width: 2em;
-	height: 2em;
+	width: 1.8em;
+	height: 1.8em;
 	border-radius: 50%;
 	display: inline-grid;
 	place-items: center;
@@ -150,8 +165,9 @@
 .work-page-wrap footer {
 	width: 760px;
 	margin: 0 auto;
+	margin-bottom: 120px;
 }
-.work-page-wrap footer div {
+.work-page-wrap footer .three-stars {
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 120px;
