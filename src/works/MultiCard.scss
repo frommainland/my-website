@@ -1,0 +1,42 @@
+.work-multicard-interview {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(2, 267px);
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
+	margin-bottom: 40px;
+	img {
+		border-radius: 12px;
+		margin-bottom: 0;
+	}
+}
+
+.work-multicard-interview-place {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	img {
+		border-radius: 12px;
+		margin-bottom: 0;
+	}
+}
+
+.work-multicard-interview-tool {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	img {
+		border-radius: 12px;
+		margin-bottom: 0;
+	}
+}
+
+.work-multicard-workshop {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+    img {
+        margin-bottom: 40px;
+        border-radius: 12px;
+    }
+}

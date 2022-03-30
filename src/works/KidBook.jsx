@@ -1,5 +1,4 @@
 import './KidBook.css'
-import ALink from '../component/ALink'
 import VideoBookmark from '../component/VideoBookmark'
 
 const KidBook = () => {

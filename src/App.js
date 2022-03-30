@@ -15,7 +15,7 @@ import PostCloseButton from './component/PostCloseButton'
 
 //work list
 import WorkCloseButton from './component/WorkCloseButton';
-import WorkMultiCard from './works/WorkMultiCard'
+import MultiCard from './works/MultiCard'
 import RumbleInTheJungle from './works/RumbleInTheJungle'
 import KidBook from './works/KidBook';
 
@@ -59,7 +59,7 @@ function App() {
                         </div>
                     }>
                         <Route index element={<Work />} />
-                        <Route path='Multicard' element={<WorkMultiCard />} />
+                        <Route path='Multicard' element={<MultiCard />} />
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
                         <Route path='KidBook' element={<KidBook />} />
                     </Route>

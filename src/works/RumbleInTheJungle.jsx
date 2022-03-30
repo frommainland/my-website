@@ -1,5 +1,5 @@
 import React from 'react'
-import './RumbleInTheJungle.css'
+import './RumbleInTheJungle.scss'
 import ALink from '../component/ALink'
 import VideoBookmark from '../component/VideoBookmark'
 
