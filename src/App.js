@@ -18,6 +18,7 @@ import WorkCloseButton from './component/WorkCloseButton';
 import MultiCard from './works/MultiCard'
 import RumbleInTheJungle from './works/RumbleInTheJungle'
 import KidBook from './works/KidBook';
+import PayInChina from './works/PayInChina';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -62,6 +63,8 @@ function App() {
                         <Route path='Multicard' element={<MultiCard />} />
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
                         <Route path='KidBook' element={<KidBook />} />
+                        <Route path='PayInChina' element={<PayInChina />} />
+
                     </Route>
 
                     <Route path="/posts" element={

@@ -1,6 +1,5 @@
 import './RumbleInTheJungle.scss'
 import './MultiCard.scss'
-import VideoBookmark from '../component/VideoBookmark'
 
 const intervieweeID = []
 
@@ -20,8 +19,7 @@ const MultiCard = () => {
 				<header className="work-header">
 					<h1>MultiCard</h1>
 					<p>
-						在成熟的东亚信用卡环境中，通过数字 +
-						实体卡的形式找到新的产品市场。
+						在成熟的东亚信用卡环境中，通过数字+实体卡的形式找到新的产品市场。
 					</p>
 				</header>
 				<section className="work-content-wrap">

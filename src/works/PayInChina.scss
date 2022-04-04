@@ -1,0 +1,136 @@
+.work-payinchina-context-highlight {
+	padding: 40px;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 36px;
+	border: 4px solid #0e4595;
+	box-sizing: border-box;
+	border-radius: 24px;
+	li:last-child {
+		margin-bottom: 0;
+	}
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.work-payinchina-design-alpha {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	figure {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		img {
+			margin-bottom: 40px;
+		}
+		figcaption {
+			text-align: center;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 24px;
+			padding: 16px 24px;
+			background-color: #0e4595;
+			border-radius: 50px;
+			display: inline-block;
+		}
+	}
+}
+
+.work-payinchina-idea-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.work-payinchina-idea-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	img {
+		margin-bottom: 0;
+	}
+}
+
+.work-payinchina-iteration-1 {
+	display: flex;
+	justify-content: space-between;
+	.divider {
+		width: 1px;
+		height: 650px;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	.work-payinchina-old {
+		width: 50%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		p {
+			padding-right: 28px;
+		}
+	}
+	.work-payinchina-new {
+		width: 50%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		p {
+			padding-left: 28px;
+		}
+	}
+}
+
+.work-payinchina-iteration-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	.divider {
+		display: flex;
+		align-items: center;
+		div {
+			width: 1px;
+			height: 650px;
+			background-color: rgba(255, 255, 255, 0.5);
+		}
+		p {
+			padding: 0 28px;
+		}
+	}
+	.work-payinchina-old {
+		width: 50%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.work-payinchina-new {
+		width: 50%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+}
+
+.work-payinchina-iteration-3 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	.divider {
+		display: flex;
+		align-items: center;
+		div {
+			width: 1px;
+			height: 650px;
+			background-color: rgba(255, 255, 255, 0.5);
+		}
+		p {
+			padding: 0 28px;
+		}
+	}
+	.work-payinchina-new {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+        gap: 24px;
+	}
+}
