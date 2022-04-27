@@ -19,6 +19,7 @@ import MultiCard from './works/MultiCard'
 import RumbleInTheJungle from './works/RumbleInTheJungle'
 import KidBook from './works/KidBook';
 import PayInChina from './works/PayInChina';
+import Mobike from './works/Mobike'
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -64,7 +65,7 @@ function App() {
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
                         <Route path='KidBook' element={<KidBook />} />
                         <Route path='PayInChina' element={<PayInChina />} />
-
+                        <Route path='Mobike' element={<Mobike />} />
                     </Route>
 
                     <Route path="/posts" element={

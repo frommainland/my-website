@@ -567,12 +567,18 @@ const KidBook = () => {
 						</span>{' '}
 						&#8258;
 					</div>
-					<VideoBookmark
-						Title="附录:英文绘本阅读流程20210609"
-						Href="https://www.figma.com/file/Nn8waMBbh7xzunJF64MnFv/%E8%8B%B1%E6%96%87%E7%BB%98%E6%9C%AC%E9%98%85%E8%AF%BB%E6%B5%81%E7%A8%8B20210609?node-id=0%3A1"
-						LinkText="https://www.figma.com/file/Nn8waMBbh7xzunJF64MnFv/%E8%8B%B1%E6%96%87%E7%BB%98%E6%9C%AC%E9%98%85%E8%AF%BB%E6%B5%81%E7%A8%8B20210609?node-id=0%3A1"
-						Background="work-kidbook-site-thumbnail"
-					/>
+					<div
+						style={{
+							width: 740,
+							margin: '0 auto',
+						}}>
+						<VideoBookmark
+							Title="附录:英文绘本阅读流程20210609"
+							Href="https://www.figma.com/file/Nn8waMBbh7xzunJF64MnFv/%E8%8B%B1%E6%96%87%E7%BB%98%E6%9C%AC%E9%98%85%E8%AF%BB%E6%B5%81%E7%A8%8B20210609?node-id=0%3A1"
+							LinkText="https://www.figma.com/file/Nn8waMBbh7xzunJF64MnFv/%E8%8B%B1%E6%96%87%E7%BB%98%E6%9C%AC%E9%98%85%E8%AF%BB%E6%B5%81%E7%A8%8B20210609?node-id=0%3A1"
+							Background="work-kidbook-site-thumbnail"
+						/>
+					</div>
 				</footer>
 			</article>
 		</div>

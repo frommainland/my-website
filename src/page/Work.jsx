@@ -55,18 +55,11 @@ const Work = () => {
 			</YearProjectGroup>
 			<YearProjectGroup year="🐶 - 2018">
 				<Project
-					name="单车商业化"
+					name="摩拜商业化与再设计"
 					company="摩拜单车"
 					tag1="APP"
 					tag2="体验优化"
-					projectLink="MobikeMonetization"
-				/>
-				<Project
-					name="单车数据化"
-					company="摩拜单车"
-					tag1="APP"
-					tag2="体验优化"
-					projectLink="MobikeVisualization"
+					projectLink="Mobike"
 				/>
 				<Project
 					name="普洱设计系统"

@@ -2,17 +2,6 @@ import React from 'react'
 import './RumbleInTheJungle.scss'
 import './PayInChina.scss'
 
-const intervieweeID = []
-
-for (let index = 1; index < 13; index++) {
-	intervieweeID.push(index)
-}
-
-const workshop = []
-for (let index = 1; index < 5; index++) {
-	workshop.push(index)
-}
-
 const PayInChina = () => {
 	return (
 		<div className="work-page-wrap">

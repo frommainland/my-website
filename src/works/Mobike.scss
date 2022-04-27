@@ -1,0 +1,256 @@
+.work-mobike-conversion {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+	figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+			margin-bottom: 24px;
+		}
+		figcaption {
+			span {
+				margin-right: 16px;
+				span {
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					display: inline-block;
+					margin-left: 8px;
+				}
+				span.red {
+					background-color: #f05b48;
+				}
+				span.yellow {
+					background-color: #fffbc5;
+					border-radius: 0;
+				}
+				span.green {
+					background-color: #2da533;
+				}
+			}
+		}
+	}
+}
+.work-mobike-adType {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 152px;
+	.work-mobike-video-wrap {
+		padding: 60px;
+		background-color: #2c2c2c;
+		display: inline-block;
+		border-radius: 24px;
+	}
+	.adtype-wrap {
+		display: flex;
+		flex-direction: column;
+		.top {
+			margin-bottom: 56px;
+			figure {
+				display: inline-block;
+				margin-left: 40px;
+			}
+		}
+		.bottom {
+			display: flex;
+			figure {
+				margin-left: 40px;
+			}
+		}
+		img {
+			border-radius: 8px;
+			margin-bottom: 16px;
+		}
+		figcaption {
+			text-align: center;
+			h3 {
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 28px;
+				margin-bottom: 8px;
+			}
+			p {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 25px;
+			}
+		}
+	}
+}
+
+.work-mobike-medal,
+.work-mobike-scan2unlock {
+	display: flex;
+	margin-bottom: 152px;
+	video {
+		padding: 60px;
+		background-color: #2c2c2c;
+		border-radius: 24px;
+		margin: 0 auto;
+		box-sizing: content-box;
+	}
+}
+
+.work-mobike-notif {
+	display: flex;
+	justify-content: space-between;
+	.notif-sketch img {
+		border-radius: 8px;
+	}
+	.notif-scene {
+		display: flex;
+		figure {
+			margin-left: 24px;
+			img {
+				margin-bottom: 16px;
+				border-radius: 8px;
+			}
+			figcaption {
+				font-weight: 400;
+				font-size: 18px;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.work-mobike-layout {
+	display: flex;
+	margin-top: 48px;
+	img {
+		border-radius: 8px;
+		padding: 0;
+	}
+	.seperator {
+		display: flex;
+		align-items: center;
+		p {
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 28px;
+		}
+		.line {
+			height: 100%;
+			width: 1px;
+			background-color: rgba(255, 255, 255, 0.5);
+			margin-left: 24px;
+			margin-right: 24px;
+		}
+	}
+}
+
+.work-content-text .work-mobike-letter {
+	font-size: 24px;
+	list-style: none;
+	counter-reset: alphabeticList;
+	list-style-position: outside;
+	line-height: 175%;
+	/* list-style: outside; */
+	/* padding-left: 20px; */
+}
+.work-content-text .work-mobike-letter li {
+	counter-increment: alphabeticList;
+	margin-bottom: 20px;
+}
+
+.work-content-text .work-mobike-letter li::before {
+	content: counter(alphabeticList, upper-alpha);
+	margin-right: 1rem;
+	font-weight: 700;
+	/* font-size: 20px; */
+	background: #292b2e;
+	color: white;
+	width: 1.8em;
+	height: 1.8em;
+	border-radius: 50%;
+	display: inline-grid;
+	place-items: center;
+}
+
+.work-mobike-table {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 8px;
+	th {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 28px;
+		color: #ffffff;
+		background-color: #ff4720;
+	}
+	td {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 19.88px;
+		line-height: 28px;
+		color: #1a1a1a;
+		border: 1px solid #d8d8d8;
+		background-color: white;
+	}
+	td:nth-of-type(even) {
+		background: #f5f5f5;
+	}
+	td,
+	th {
+		padding: 24px;
+	}
+}
+
+.work-mobike-new-notif {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 160px;
+	.notif-type-a,
+	.notif-type-b,
+	.notif-type-c {
+		img {
+			border-radius: 8px;
+			margin-bottom: 24px;
+		}
+		h3 {
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 24px;
+			margin-bottom: 8px;
+		}
+		p {
+			width: 250px;
+		}
+	}
+	.notif-type-b {
+		display: flex;
+		gap: 16px;
+	}
+}
+
+.work-mobike-new-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 160px;
+}
+.work-mobike-hardware {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.work-mobike-bike {
+		display: flex;
+		gap: 16px;
+		img {
+			border-radius: 8px;
+			margin-bottom: 24px;
+		}
+		p {
+			text-align: center;
+		}
+	}
+}
+
+.work-mobike-archive {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	gap: 48px;
+}
