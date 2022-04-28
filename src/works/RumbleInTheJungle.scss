@@ -129,12 +129,12 @@
 	/* list-style: outside; */
 	/* padding-left: 20px; */
 }
-.work-content-text ol li {
+.work-content-text ol > li {
 	counter-increment: steps;
 	margin-bottom: 20px;
 }
 
-.work-content-text ol li::before {
+.work-content-text ol > li::before {
 	content: counter(steps);
 	margin-right: 1rem;
 	font-weight: 700;

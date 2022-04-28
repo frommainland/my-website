@@ -65,7 +65,7 @@ const Work = () => {
 					name="普洱设计系统"
 					company="摩拜单车"
 					tag1="体验优化"
-					projectLink="MobikePuer"
+					projectLink="Puer"
 				/>
 			</YearProjectGroup>
 		</div>
