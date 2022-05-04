@@ -68,6 +68,24 @@ const Work = () => {
 					projectLink="Puer"
 				/>
 			</YearProjectGroup>
+			<YearProjectGroup year="🐒 - 2016">
+				<Project
+					name="Flipboard优化"
+					company="Flipboard中国"
+					tag1="APP"
+					tag2="体验优化"
+					projectLink="Sangeng"
+				/>
+			</YearProjectGroup>
+			<YearProjectGroup year="🐑 - 2015">
+				<Project
+					name="三更"
+					company="Flipboard中国"
+					tag1="APP"
+					tag2="从无到有"
+					projectLink="Sangeng"
+				/>
+			</YearProjectGroup>
 		</div>
 	)
 }
