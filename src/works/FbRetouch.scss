@@ -1,0 +1,59 @@
+.work-fbretouch-title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 62px;
+	margin-bottom: 40px;
+	span:first-child {
+		background-color: #e12929;
+		padding: 15px 18px 15px 18px;
+	}
+	span:last-child {
+		padding: 15px 18px 15px 18px;
+		outline: 2px solid #e12929;
+		outline-offset: -2px;
+	}
+}
+
+.work-fbretouch-signin {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+}
+
+.work-fbretouch-explore {
+	display: flex;
+	justify-content: flex-start;
+	gap: 104px;
+	figure {
+		margin-bottom: 60px;
+	}
+	.work-fbretouch-explore-top,
+	.work-fbretouch-explore-bot {
+		display: flex;
+		justify-content: center;
+		gap: 24px;
+	}
+}
+
+// h3 p 文字组合
+.work-fbretouch-text-wrap {
+	margin-bottom: 48px;
+}
+
+.work-fbretouch-explore-new-t1 {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-bottom: 56px;
+}
+
+.work-fbretouch-explore-album {
+	display: flex;
+	justify-content: flex-start;
+	gap: 104px;
+	margin-bottom: 56px;
+	.work-fbretouch-album {
+		display: flex;
+		gap: 24px;
+	}
+}

@@ -70,11 +70,11 @@ const Work = () => {
 			</YearProjectGroup>
 			<YearProjectGroup year="🐒 - 2016">
 				<Project
-					name="Flipboard优化"
+					name="Flipboard体验优化"
 					company="Flipboard中国"
 					tag1="APP"
 					tag2="体验优化"
-					projectLink="Sangeng"
+					projectLink="FbRetouch"
 				/>
 			</YearProjectGroup>
 			<YearProjectGroup year="🐑 - 2015">

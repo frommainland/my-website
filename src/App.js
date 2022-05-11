@@ -22,6 +22,7 @@ import PayInChina from './works/PayInChina';
 import Mobike from './works/Mobike'
 import Puer from './works/Puer';
 import Sangeng from './works/Sangeng';
+import FbRetouch from './works/FbRetouch';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -70,6 +71,7 @@ function App() {
                         <Route path='Mobike' element={<Mobike />} />
                         <Route path='Puer' element={<Puer />} />
                         <Route path='Sangeng' element={<Sangeng />} />
+                        <Route path='FbRetouch' element={<FbRetouch />} />
                     </Route>
 
                     <Route path="/posts" element={
