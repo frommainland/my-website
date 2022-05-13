@@ -11,7 +11,7 @@ const Work = () => {
 				paddingTop: '48px',
 			}}>
 			{/* tag 内容只能选择 网站 APP 体验优化 咨询 从无到有  */}
-			<YearProjectGroup year="🐯 - 2022">
+			{/* <YearProjectGroup year="🐯 - 2022">
 				<Project
 					name="个人网站"
 					company="个人"
@@ -19,7 +19,7 @@ const Work = () => {
 					tag2="从无到有"
 					projectLink="PersonalSite"
 				/>
-			</YearProjectGroup>
+			</YearProjectGroup> */}
 			<YearProjectGroup year="🐮 - 2021">
 				<Project
 					name="森林里的响声"
