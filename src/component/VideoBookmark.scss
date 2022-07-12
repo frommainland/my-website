@@ -1,0 +1,41 @@
+/* video book mark */
+.about-video-bookmark {
+	display: flex;
+	align-items: center;
+	background: #292b2e;
+	border-radius: 1.5em;
+	padding: 1em;
+	gap: 2em;
+	.about-video-thumbnail {
+		width: 6em;
+		height: 6em;
+		border-radius: 0.75em;
+		padding: 0;
+		margin: 0;
+	}
+	.about-video-text-wrap {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		#about-video-title {
+			font-size: 24px;
+			color: FFFFFF;
+			font-weight: 700;
+			line-height: 120%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			margin-bottom: 8px;
+		}
+
+		#about-video-linkText {
+			font-size: 16px;
+			line-height: 19px;
+			color: rgba(255, 255, 255, 0.5);
+			margin-bottom: 0;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+}

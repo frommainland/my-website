@@ -1,0 +1,16 @@
+video {
+	margin-inline: auto;
+	display: block;
+	margin-bottom: 6em;
+	border-radius: 0.5rem;
+}
+
+video + video {
+	margin-bottom: 0;
+}
+
+#subtitle {
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 0.75em;
+}
