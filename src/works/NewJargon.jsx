@@ -26,22 +26,28 @@ const NewJargon = () => {
 					</div>
 					<div className="work-content-img">
 						<video
-							src={require('../video/work-newJargon1.webm')}
 							autoPlay
 							muted
 							loop
+							controls
 							playsInline
-							width={1024}
-						/>
+							width={1024}>
+							<source
+								src={require('../video/work-newJargon1.webm')}
+							/>
+						</video>
 
 						<video
-							src={require('../video/work-newJargon2.webm')}
 							autoPlay
 							muted
 							loop
+							controls
 							playsInline
-							width={1024}
-						/>
+							width={1024}>
+							<source
+								src={require('../video/work-newJargon2.webm')}
+							/>
+						</video>
 					</div>
 					<div className="work-content-text">
 						<p id="subtitle">词条链接</p>
