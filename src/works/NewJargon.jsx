@@ -4,6 +4,7 @@ import './NewJargon.scss'
 import VideoBookmark from '../component/VideoBookmark'
 
 const NewJargon = () => {
+	const video1 = require('../video/work-newJargon1.webm')
 	return (
 		<div className="work-page-wrap">
 			<article className="work-article-wrap">
@@ -32,9 +33,7 @@ const NewJargon = () => {
 							controls
 							playsInline
 							width={1024}>
-							<source
-								src={require('../video/work-newJargon1.webm')}
-							/>
+							<source src={video1} />
 						</video>
 
 						<video

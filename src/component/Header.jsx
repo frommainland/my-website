@@ -42,7 +42,7 @@ export default function Header() {
 			</div>
 			<div className="stat">
 				<Stat name="项目" number="9" />
-				<Stat name="文章" number="0" />
+				<Stat name="文章" number="1" />
 				<Stat name="个人" number="1" />
 			</div>
 		</div>

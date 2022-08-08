@@ -10,7 +10,8 @@ import Work from './page/Work';
 import Error from './page/Error';
 
 //posts list
-import PostOnlineTest from './posts/PostOnlineTest'
+
+import PxRemEm from './posts/PxRemEm';
 import PostCloseButton from './component/PostCloseButton'
 
 //work list
@@ -87,7 +88,7 @@ function App() {
                     use markdown?
                     how to link path:title in the articlelist.js and find content in posttest.js? */}
                         {/* <Route path=":title" element={<PostTest />} /> */}
-                        <Route path='PostOnlineTest' element={<PostOnlineTest />} />
+                        <Route path='PxRemEm' element={<PxRemEm />} />
                         <Route path="*" element={<div>No post found</div>} />
                     </Route>
                     <Route path="/about" element={<About />} />

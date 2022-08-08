@@ -8,15 +8,25 @@ const Posts = () => {
 				color: 'white',
 				paddingTop: '48px',
 				cursor: 'none',
+				width: '80vw',
+				marginInline: 'auto',
+				maxWidth: '90rem',
 			}}>
-			建设中...
-			{/* <ArticleList title='上线测试' time='2022.02.16' id='PostOnlineTest' />
-            <ArticleList title='迭代网站计划' time='2022.02.16' id='PostSitePlan' />
-            <ArticleList title='迭代网站计划' time='2022.02.16' id='PostSitePlan' />
-            <ArticleList title='迭代网站计划' time='2022.02.16' id='PostSitePlan' />
-            <ArticleList title='迭代网站计划' time='2022.02.16' id='PostSitePlan' />
-            <ArticleList title='迭代网站计划' time='2022.02.16' id='PostSitePlan' />
-            <ArticleList title='迭代网站计划' time='2022.02.16' id='PostSitePlan' /> */}
+			<ArticleList
+				title="应该用px，em还是rem？以及相关的距离单位"
+				time="2022-07-18"
+				id="PxRemEm"
+			/>
+			<ArticleList
+				title="Test-首次用react做网站的一些总结"
+				time="2022-08-18"
+				id="PostOnlineTest"
+			/>
+			<ArticleList
+				title="Test-个人项目预言"
+				time="2022-09-18"
+				id="PostOnlineTest"
+			/>
 		</div>
 	)
 }
