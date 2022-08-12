@@ -12,7 +12,7 @@ const ALink = ({ href, title, text }) => {
             }} href={href} title={title}>
                 {text}
             </a>
-        </motion.span >
+        </motion.span>
     )
 }
 

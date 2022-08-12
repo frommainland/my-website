@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './CodeExample.scss'
-import Slider from './Slider'
+import { SliderProvider } from './SliderContext'
 
 const CodeExample = ({ children, initValue }) => {
 	const [sliderValue, setSliderValue] = useState(initValue)
@@ -10,13 +10,21 @@ const CodeExample = ({ children, initValue }) => {
 		setSliderValue(initValue)
 	}, [initValue])
 
-
 	return (
-		<div className="code-interactive">
-			{children}
+		<SliderProvider initValue={sliderValue}>
+			<div className="code-interactive">{children}</div>
+		</SliderProvider>
+	)
+}
 
-			{/* <Top />  element*/}
-			{/* <div className="top">
+export default CodeExample
+
+//原始代码 children
+{
+	/* <Top />  element*/
+}
+{
+	/* <div className="top">
 				<div className="slider-wrap">
 					<label htmlFor="slider" className="slider-text">
 						<p>{sliderValue}px</p>
@@ -35,13 +43,21 @@ const CodeExample = ({ children, initValue }) => {
 					<p>¹ 1em / ² 24px</p>
 					<h4>button padding</h4>
 				</div>
-			</div> */}
+			</div> */
+}
 
-			{/* hr element */}
-			{/* <hr /> */}
+{
+	/* hr element */
+}
+{
+	/* <hr /> */
+}
 
-			{/* bottom element */}
-			{/* <div className="bot">
+{
+	/* bottom element */
+}
+{
+	/* <div className="bot">
 				<button
 					style={{
 						padding: `${sliderValue}px`,
@@ -56,9 +72,5 @@ const CodeExample = ({ children, initValue }) => {
 					}}>
 					² 固定padding按钮
 				</button>
-			</div> */}
-		</div>
-	)
+			</div> */
 }
-
-export default CodeExample
