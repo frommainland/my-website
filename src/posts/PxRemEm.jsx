@@ -25,6 +25,9 @@ const PxRemEm = () => {
 				</p>
 			</section>
 
+			<div className="gradient">red</div>
+			<div className="gradient gradient2">red</div>
+
 			<hr />
 
 			<section className="post-content">

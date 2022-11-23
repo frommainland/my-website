@@ -12,6 +12,7 @@ import Error from './page/Error';
 //posts list
 
 import PxRemEm from './posts/PxRemEm';
+import { WebGradient } from './posts/WebGradient';
 import PostCloseButton from './component/PostCloseButton'
 
 //work list
@@ -79,7 +80,7 @@ function App() {
                     </Route>
 
                     <Route path="/posts" element={
-                        <div>
+                        <div style={{ overflowX: 'hidden', }}>
                             <Outlet />
                             <PostCloseButton />
                         </div>}>
@@ -89,6 +90,7 @@ function App() {
                     how to link path:title in the articlelist.js and find content in posttest.js? */}
                         {/* <Route path=":title" element={<PostTest />} /> */}
                         <Route path='PxRemEm' element={<PxRemEm />} />
+                        <Route path='WebGradient' element={<WebGradient />} />
                         <Route path="*" element={<div>No post found</div>} />
                     </Route>
                     <Route path="/about" element={<About />} />

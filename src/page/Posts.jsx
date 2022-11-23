@@ -11,11 +11,17 @@ const Posts = () => {
 				width: '80vw',
 				marginInline: 'auto',
 				maxWidth: '90rem',
-			}}>
+			}}
+		>
 			<ArticleList
 				title="应该用px，em还是rem？以及相关的距离单位"
 				time="2022-07-18"
 				id="PxRemEm"
+			/>
+			<ArticleList
+				title="Web渐变中“灰区”的原因和解决方法"
+				time="2022-11-21"
+				id="WebGradient"
 			/>
 			{/* <ArticleList
 				title="Test-首次用react做网站的一些总结"

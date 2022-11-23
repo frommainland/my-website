@@ -5,6 +5,12 @@
 	--fs-h3: 1.1875rem;
 	--fs-h4: 1.0625rem;
 	--fs-h5: 0.875rem;
+	--red: 0, 100%, 74%;
+	--yellow: 60, 100%, 62%;
+	--mid: 153, 100%, 62%;
+	--mid1: 122, 100%, 62%;
+	--mid2: 182, 100%, 62%;
+	--blue: 246, 100%, 49%;
 }
 
 html {
@@ -17,15 +23,17 @@ body {
 
 code {
 	padding: 0.3em 0.4em;
-    margin-inline: 0.25em;
+	margin-inline: 0.25em;
 	background-color: hsla(0, 0%, 100%, 0.2);
 	color: hsla(0, 0%, 100%, 0.9);
-    border-radius: .4em;
-    font-weight: 600;
-    font-size: .75em;
-    box-decoration-break: clone;
+	border-radius: 0.4em;
+	font-weight: 600;
+	font-size: 0.75em;
+    line-height: 2;
+	box-decoration-break: clone;
 	font-family: Input Mono, SF Mono, Menlo, Monaco, Courier, monospace;
 }
+
 h1 {
 	font-size: var(--fs-h1);
 	line-height: 1.4;
@@ -86,6 +94,18 @@ p.bold {
 	margin-inline: auto;
 	margin-top: calc(3em + 16vh);
 	margin-bottom: 12em;
+	.gradient {
+		height: 110px;
+		background-image: linear-gradient(90deg, #feff3b 0%, #1900f9 100%);
+	}
+	.gradient2 {
+		background-image: linear-gradient(
+			90deg,
+			hsla(var(--yellow), 1),
+			hsla(var(--mid), 1),
+			hsla(var(--blue), 1)
+		);
+	}
 	section {
 		margin-bottom: 3.75em;
 	}
