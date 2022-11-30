@@ -41,8 +41,8 @@ export default function Header() {
 				<motion.div className="logo-circle" whileHover={animateUp} />
 			</div>
 			<div className="stat">
-				<Stat name="项目" number="9" />
-				<Stat name="文章" number="1" />
+				<Stat name="项目" number="10" />
+				<Stat name="文章" number="2" />
 				<Stat name="个人" number="1" />
 			</div>
 		</div>

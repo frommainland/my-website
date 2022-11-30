@@ -26,6 +26,7 @@ import Puer from './works/Puer';
 import Sangeng from './works/Sangeng';
 import FbRetouch from './works/FbRetouch';
 import NewJargon from './works/NewJargon';
+import LastNameSlang from './works/LastNameSlang';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -69,7 +70,7 @@ function App() {
                         <Route index element={<Work />} />
 
                         <Route path='Multicard' element={<MultiCard />} />
-                        <Route path='NewJargon' element={<NewJargon />} />
+
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
                         <Route path='KidBook' element={<KidBook />} />
                         <Route path='PayInChina' element={<PayInChina />} />
@@ -77,6 +78,8 @@ function App() {
                         <Route path='Puer' element={<Puer />} />
                         <Route path='Sangeng' element={<Sangeng />} />
                         <Route path='FbRetouch' element={<FbRetouch />} />
+                        <Route path='NewJargon' element={<NewJargon />} />
+                        <Route path='LastNameSlang' element={<LastNameSlang />} />
                     </Route>
 
                     <Route path="/posts" element={

@@ -9,7 +9,8 @@ const Work = () => {
 				backgroundColor: '#0A0A0A',
 				color: 'white',
 				paddingTop: '48px',
-			}}>
+			}}
+		>
 			{/* tag 内容只能选择 网站 APP 体验优化 咨询 从无到有  */}
 			{/* <YearProjectGroup year="🐯 - 2022">
 				<Project
@@ -22,6 +23,12 @@ const Work = () => {
 			</YearProjectGroup> */}
 
 			<YearProjectGroup year="🐯 - 2022">
+				<Project
+					name="有根底"
+					company="个人"
+					tag1="网站"
+					projectLink="LastNameSlang"
+				/>
 				<Project
 					name="互联网词语"
 					company="个人"

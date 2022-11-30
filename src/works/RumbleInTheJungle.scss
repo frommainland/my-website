@@ -20,7 +20,8 @@
 }
 
 .work-article-wrap {
-	width: 1400px;
+	max-width: 1400px;
+	width: 90%;
 }
 
 /* header */
@@ -69,6 +70,8 @@
 /* section */
 .work-article-wrap section {
 	margin-bottom: 200px;
+	margin: 0 auto;
+    width: 90%;
 }
 
 /* content-text */
@@ -188,10 +191,15 @@
 
 /* work image wrap*/
 .work-content-img {
-	width: 1400px;
+	max-width: 1400px;
+	width: 90%;
 	// border-radius: 24px;
 	overflow: hidden;
+	margin: 0 auto;
 	margin-bottom: 80px;
+	img {
+		width: 100%;
+	}
 	h1 {
 		width: 760px;
 		margin: 0 auto;
