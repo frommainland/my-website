@@ -27,6 +27,7 @@ import Sangeng from './works/Sangeng';
 import FbRetouch from './works/FbRetouch';
 import NewJargon from './works/NewJargon';
 import LastNameSlang from './works/LastNameSlang';
+import LinkedinJobExplore from './works/LinkedinJobExplore';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -69,6 +70,7 @@ function App() {
                     }>
                         <Route index element={<Work />} />
 
+                        <Route path='LinkedinJobExplore' element={<LinkedinJobExplore />} />
                         <Route path='Multicard' element={<MultiCard />} />
 
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />

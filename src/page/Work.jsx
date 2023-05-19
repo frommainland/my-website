@@ -22,6 +22,16 @@ const Work = () => {
 				/>
 			</YearProjectGroup> */}
 
+			<YearProjectGroup year="🐰 - 2023">
+				<Project
+					name="职位探索"
+					company="领英中国"
+					tag1="APP"
+					tag2="从无到有"
+					projectLink="LinkedinJobExplore"
+				/>
+			</YearProjectGroup>
+
 			<YearProjectGroup year="🐯 - 2022">
 				<Project
 					name="有根底"
