@@ -28,6 +28,7 @@ import FbRetouch from './works/FbRetouch';
 import NewJargon from './works/NewJargon';
 import LastNameSlang from './works/LastNameSlang';
 import LinkedinJobExplore from './works/LinkedinJobExplore';
+import FlowerAndPoem from './works/FlowerAndPoem';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -66,13 +67,14 @@ function App() {
                         <div>
                             <Outlet />
                             <WorkCloseButton />
+                            
                         </div>
                     }>
                         <Route index element={<Work />} />
-
                         <Route path='LinkedinJobExplore' element={<LinkedinJobExplore />} />
+                        <Route path='FlowerAndPoem' element={<FlowerAndPoem />} />
+                        
                         <Route path='Multicard' element={<MultiCard />} />
-
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
                         <Route path='KidBook' element={<KidBook />} />
                         <Route path='PayInChina' element={<PayInChina />} />
