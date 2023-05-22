@@ -29,6 +29,7 @@ import NewJargon from './works/NewJargon';
 import LastNameSlang from './works/LastNameSlang';
 import LinkedinJobExplore from './works/LinkedinJobExplore';
 import FlowerAndPoem from './works/FlowerAndPoem';
+import SlackingOff from './works/SlackingOff';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -73,6 +74,7 @@ function App() {
                         <Route index element={<Work />} />
                         <Route path='LinkedinJobExplore' element={<LinkedinJobExplore />} />
                         <Route path='FlowerAndPoem' element={<FlowerAndPoem />} />
+                        <Route path='SlackingOff' element={<SlackingOff />} />
                         
                         <Route path='Multicard' element={<MultiCard />} />
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
