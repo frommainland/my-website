@@ -30,6 +30,9 @@ import LastNameSlang from './works/LastNameSlang';
 import LinkedinJobExplore from './works/LinkedinJobExplore';
 import FlowerAndPoem from './works/FlowerAndPoem';
 import SlackingOff from './works/SlackingOff';
+// work 2024
+import EmojiWallpaper from './works/EmojiWallpaper'
+import FramerMotionBook from './works/FramerMotionBook';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -68,14 +71,17 @@ function App() {
                         <div>
                             <Outlet />
                             <WorkCloseButton />
-                            
+
                         </div>
                     }>
                         <Route index element={<Work />} />
+                        <Route path='EmojiWallpaper' element={<EmojiWallpaper />} />
+                        <Route path='FramerMotionBook' element={<FramerMotionBook />} />
+
                         <Route path='LinkedinJobExplore' element={<LinkedinJobExplore />} />
                         <Route path='FlowerAndPoem' element={<FlowerAndPoem />} />
                         <Route path='SlackingOff' element={<SlackingOff />} />
-                        
+
                         <Route path='Multicard' element={<MultiCard />} />
                         <Route path='RumbleInTheJungle' element={<RumbleInTheJungle />} />
                         <Route path='KidBook' element={<KidBook />} />
