@@ -25,6 +25,12 @@ const Work = () => {
 
 			<YearProjectGroup year="🐲 - 2024">
 				<Project
+					name="Harper's collection"
+					company="个人"
+					tag1="网站"
+					projectLink="HarpersCollection"
+				/>
+				<Project
 					name="🖼️ wallpaper"
 					company="个人"
 					tag1="网站"

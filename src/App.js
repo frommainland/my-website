@@ -33,6 +33,7 @@ import SlackingOff from './works/SlackingOff';
 // work 2024
 import EmojiWallpaper from './works/EmojiWallpaper'
 import FramerMotionBook from './works/FramerMotionBook';
+import HarpersCollection from './works/HarpersCollection';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -75,6 +76,7 @@ function App() {
                         </div>
                     }>
                         <Route index element={<Work />} />
+                        <Route path='HarpersCollection' element={<HarpersCollection />} />
                         <Route path='EmojiWallpaper' element={<EmojiWallpaper />} />
                         <Route path='FramerMotionBook' element={<FramerMotionBook />} />
 
