@@ -34,6 +34,7 @@ import SlackingOff from './works/SlackingOff';
 import EmojiWallpaper from './works/EmojiWallpaper'
 import FramerMotionBook from './works/FramerMotionBook';
 import HarpersCollection from './works/HarpersCollection';
+import RadiantCanvas from './works/RadiantCanvas';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
@@ -76,6 +77,7 @@ function App() {
                         </div>
                     }>
                         <Route index element={<Work />} />
+                        <Route path='RadiantCanvas' element={<RadiantCanvas />} />
                         <Route path='HarpersCollection' element={<HarpersCollection />} />
                         <Route path='EmojiWallpaper' element={<EmojiWallpaper />} />
                         <Route path='FramerMotionBook' element={<FramerMotionBook />} />

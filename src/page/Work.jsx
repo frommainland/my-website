@@ -25,6 +25,13 @@ const Work = () => {
 
 			<YearProjectGroup year="🐲 - 2024">
 				<Project
+					name="Radiant canvas"
+					company="个人"
+					tag1="网站"
+					tag2="工具"
+					projectLink="RadiantCanvas"
+				/>
+				<Project
 					name="Harper's collection"
 					company="个人"
 					tag1="网站"
