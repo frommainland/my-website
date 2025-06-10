@@ -35,9 +35,12 @@ import EmojiWallpaper from './works/EmojiWallpaper'
 import FramerMotionBook from './works/FramerMotionBook';
 import HarpersCollection from './works/HarpersCollection';
 import RadiantCanvas from './works/RadiantCanvas';
+//work 2025
+import LineClock from './works/LineClock';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
+
 
 
 
@@ -77,6 +80,10 @@ function App() {
                         </div>
                     }>
                         <Route index element={<Work />} />
+                        {/* 2025 */}
+                        <Route path='LineClock' element={<LineClock />} />
+
+
                         <Route path='RadiantCanvas' element={<RadiantCanvas />} />
                         <Route path='HarpersCollection' element={<HarpersCollection />} />
                         <Route path='EmojiWallpaper' element={<EmojiWallpaper />} />

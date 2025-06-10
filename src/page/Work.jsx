@@ -23,6 +23,35 @@ const Work = () => {
 				/>
 			</YearProjectGroup> */}
 
+			<YearProjectGroup year="🐍 - 2025">
+				<Project
+					name="Line clock"
+					company="个人"
+					tag1="网站"
+					projectLink="LineClock"
+				/>
+				<Project
+					name="Create a spark"
+					company="个人"
+					tag1="网站"
+					projectLink="HarpersCollection"
+				/>
+				{/* <Project
+					name="🖼️ wallpaper"
+					company="个人"
+					tag1="网站"
+					tag2="工具"
+					projectLink="EmojiWallpaper"
+				/>
+				<Project
+					name="Framer motion book"
+					company="个人"
+					tag1="网站"
+					tag2="工具"
+					projectLink="FramerMotionBook"
+				/> */}
+			</YearProjectGroup>
+
 			<YearProjectGroup year="🐲 - 2024">
 				<Project
 					name="Radiant canvas"
