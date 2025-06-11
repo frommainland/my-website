@@ -34,7 +34,7 @@ const Work = () => {
 					name="Create a spark"
 					company="个人"
 					tag1="网站"
-					projectLink="HarpersCollection"
+					projectLink="CreateASpark"
 				/>
 				{/* <Project
 					name="🖼️ wallpaper"
