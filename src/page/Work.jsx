@@ -25,6 +25,12 @@ const Work = () => {
 
 			<YearProjectGroup year="🐍 - 2025">
 				<Project
+					name="Harper drawings"
+					company="个人"
+					tag1="网站"
+					projectLink="HarperDrawings"
+				/>
+				<Project
 					name="Line clock"
 					company="个人"
 					tag1="网站"
@@ -36,20 +42,6 @@ const Work = () => {
 					tag1="网站"
 					projectLink="CreateASpark"
 				/>
-				{/* <Project
-					name="🖼️ wallpaper"
-					company="个人"
-					tag1="网站"
-					tag2="工具"
-					projectLink="EmojiWallpaper"
-				/>
-				<Project
-					name="Framer motion book"
-					company="个人"
-					tag1="网站"
-					tag2="工具"
-					projectLink="FramerMotionBook"
-				/> */}
 			</YearProjectGroup>
 
 			<YearProjectGroup year="🐲 - 2024">
