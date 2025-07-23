@@ -39,9 +39,11 @@ import RadiantCanvas from './works/RadiantCanvas';
 import LineClock from './works/LineClock';
 import CreateASpark from './works/CreateASpark';
 import HarperDrawings from './works/HarperDrawings';
+import Kaleidoscope from './works/Kaleidoscope';
 
 // usecontext 命名错误，应该是首页contentClickedContext
 import { NavButtonContext } from './context/NavButtonContext';
+
 
 
 
@@ -84,6 +86,7 @@ function App() {
                     }>
                         <Route index element={<Work />} />
                         {/* 2025 */}
+                        <Route path='Kaleidoscope' element={<Kaleidoscope />} />
                         <Route path='HarperDrawings' element={<HarperDrawings />} />
                         <Route path='LineClock' element={<LineClock />} />
                         <Route path='CreateASpark' element={<CreateASpark />} />
