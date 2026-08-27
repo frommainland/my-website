@@ -3,16 +3,13 @@ import './RumbleInTheJungle.scss'
 import VideoBookmark from '../component/VideoBookmark'
 
 const Warkday = () => {
-	const images = Array.from(Array(3).keys())
+	// const images = Array.from(Array(3).keys())
 	return (
 		<div className="work-page-wrap">
 			<article className="work-article-wrap">
 				<header className="work-header">
 					<h1>Warkday</h1>
-					<p>
-						Track ideas, projects & routines. Clean design.
-						Satisfying taps.
-					</p>
+					<p>Track ideas, projects & routines. Data stays local.</p>
 				</header>
 				·
 				<section className="work-content-wrap">
@@ -26,7 +23,7 @@ const Warkday = () => {
 						/>
 					</div>
 					<div className="work-content-img">
-						{images.map((item, i) => {
+						{/* {images.map((item, i) => {
 							return (
 								<img
 									src={require(
@@ -36,7 +33,7 @@ const Warkday = () => {
 									key={i}
 								/>
 							)
-						})}
+						})} */}
 						<video
 							src={require('../video/warkday_1.mp4')}
 							autoPlay
